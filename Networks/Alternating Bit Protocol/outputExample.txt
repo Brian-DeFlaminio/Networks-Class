@@ -1,0 +1,4415 @@
+-----  Network Simulator Version    2.3 -------- 
+
+Enter the number of messages to simulate: Packet loss probability [enter number between 0.0 and 1.0]: Packet corruption probability [0.0 for no corruption]: Packet out-of-order probability [0.0 for no out-of-order]: Average time between messages from sender's layer5 [ > 0.0]: Enter Level of tracing desired: Do you want actions randomized: (1 = yes, 0 = no)? Do you want Bidirectional: (1 = yes, 0 = no)? Input parameters:
+Number of Messages = 100  Lost Packet Prob. =   0.500
+Corrupt Packet Prob. =   0.500  Out Of Order Prob. =   0.500
+Ave. time between messages = 10000.00  Trace level = 1
+Randomize = 1  Bi-directional = 0
+
+A:   12182.8495,  Layer 5 to 4  Message = !fEVhy->Pbs'2J3m~2DU
+
+A_output is sending packet with data: !fEVhy->Pbs'2J3m~2DUÿ
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:   12207.7219,  Layer 4 to 5  Message = !fEVhy->Pbs'2J3m~2DU
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Packet corrupt, waiting for timer interrupt...
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+Successfully received ACK packet!A:   29334.2777,  Layer 5 to 4  Message = ##i.Qt9]!Eh-Ps8[~Dg,
+
+A_output is sending packet with data: ##i.Qt9]!Eh-Ps8[~Dg,ÿ
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:   29463.8027,  Layer 4 to 5  Message = ##i.Qt9]!Eh-Ps8[~Dg,
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Successfully received ACK packet!A:   45626.6798,  Layer 5 to 4  Message = $X$d:oFzQ(]3h>sJ~U,a
+
+A_output is sending packet with data: $X$d:oFzQ(]3h>sJ~U,aÿ
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:   45655.3785,  Layer 4 to 5  Message = $X$d:oFzQ(]3h>sJ~U,a
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Successfully received ACK packet!A:   62928.5025,  Layer 5 to 4  Message = %kS%$jR:#iQ9!hP8~gO7
+
+A_output is sending packet with data: %kS%$jR:#iQ9!hP8~gO7ÿ
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Packet corrupt, waiting for timer interrupt...
+Sending ACK...
+
+B:   63025.4398,  Layer 4 to 5  Message = %kS%$jR:#iQ9!hP8~gO7
+
+A_timerinterrupt called, resending packet!
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+Successfully received ACK packet!A:   76300.3741,  Layer 5 to 4  Message = &}wq&e_XRLF?93-'~xrl
+
+A_output is sending packet with data: &}wq&e_XRLF?93-'~xrlÿ
+Sending ACK...
+
+B:   76302.7621,  Layer 4 to 5  Message = &}wq&e_XRLF?93-'~xrl
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Successfully received ACK packet!ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+A:   94960.2299,  Layer 5 to 4  Message = '2=IT'kv$x:FQ]hs~,7C
+
+A_output is sending packet with data: '2=IT'kv$x:FQ]hs~,7Cÿ
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Wrong acknum, waiting for timer interrupt...
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Wrong acknum, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:   95112.0449,  Layer 4 to 5  Message = '2=I'Tkv$x:FQ]hs~,7C
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+Successfully received ACK packet!A:  102068.0497,  Layer 5 to 4  Message = (Eb~=Z(6SpxLi(Eb~=Zw
+
+A_output is sending packet with data: (Eb~=Z(6SpxLi(Eb~=Zwÿ
+Sending ACK...
+
+B:  102074.8847,  Layer 4 to 5  Message = (Eb~=Z(6SpxLi(Eb~=Zw
+
+A_timerinterrupt called, resending packet!
+
+Packet corrupt, waiting for timer interrupt...
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Successfully received ACK packet!A:  107792.7205,  Layer 5 to 4  Message = dW(V'U&)%S$R2Q!P~O}N
+
+A_output is sending packet with data: dW(V'U&)%S$R2Q!P~O}Nÿ
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  107863.3597,  Layer 4 to 5  Message = dW(V'U&)%S$R2Q!P~O}N
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Successfully received ACK packet!A:  115417.4288,  Layer 5 to 4  Message = *jL.nP2r*6vX:z]>~aC%
+
+A_output is sending packet with data: *jL.nP2r*6vX:z]>~aC%ÿ
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Wrong acknum, waiting for timer interrupt...
+Sending ACK...
+
+B:  115437.3321,  Layer 4 to 5  Message = *jL.nP2r%6vX:z]>~aC*
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+Successfully received ACK packet!A:  130736.0317,  Layer 5 to 4  Message = +fpdWK>2&+k_RF3-~rfY
+
+A_output is sending packet with data: +fpdWK>2&+k_RF3-~rfYÿ
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  130769.7692,  Layer 4 to 5  Message = +fpdWK>2&+k_RF3-~rfY
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Successfully received ACK packet!A:  138182.1055,  Layer 5 to 4  Message = ,16;AFKPUZ,ejoty~&+0
+
+A_output is sending packet with data: ,16;AFKPUZ,ejoty~&+0ÿ
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  138222.2736,  Layer 4 to 5  Message = ,16;AFKPUZ,ejoty~&+0
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Wrong acknum, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Packet corrupt, waiting for timer interrupt...
+
+Successfully received ACK packet!A:  153156.9851,  Layer 5 to 4  Message = -DZq*AWn'=T-$:Qh~7Ne
+
+A_output is sending packet with data: -DZq*AWn'=T-$:Qh~7Neÿ
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+Sending ACK...
+
+B:  153174.4126,  Layer 4 to 5  Message = -QZq*AWn'=T-$:Dh~7Ne
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+Wrong acknum, waiting for timer interrupt...
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+
+Successfully received ACK packet!A:  169820.9173,  Layer 5 to 4  Message = .V~Iq;d.V~Iq.d.V~Iq;
+
+A_output is sending packet with data: .V~Iq;d.V~Iq.d.V~Iq;ÿ
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+Sending ACK...
+
+B:  169891.2451,  Layer 4 to 5  Message = .V~I;qd.V~Iq.d.V~Iq;
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+Packet corrupt, waiting for timer interrupt...
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Successfully received ACK packet!A:  170142.1104,  Layer 5 to 4  Message = xiE~Z6pL(b=wSxiE~Z6p
+
+A_output is sending packet with data: xiE~Z6pL(b=wSxiE~Z6pÿ
+Sending ACK...
+
+B:  170148.2446,  Layer 4 to 5  Message = xiE~Z6pL(b=wSxiE~Z6p
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Successfully received ACK packet!A:  181112.5312,  Layer 5 to 4  Message = d{iVD1|jWE2}2X03~lYG
+
+A_output is sending packet with data: d{iVD1|jWE2}2X03~lYGÿ
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Wrong acknum, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  181249.0779,  Layer 4 to 5  Message = d{iVD1|jWE2}2X03~lYG
+
+Wrong acknum, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+
+Packet corrupt, waiting for timer interrupt...
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Packet corrupt, waiting for timer interrupt...
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+Successfully received ACK packet!A:  182721.0546,  Layer 5 to 4  Message = 10x.-,+*)('&%$#1~}|{
+
+A_output is sending packet with data: 10x.-,+*)('&%$#1~}|{ÿ
+Sending ACK...
+
+B:  182728.5261,  Layer 4 to 5  Message = 10x.-,+*)('&%$#1~}|{
+
+A_timerinterrupt called, resending packet!
+
+Packet corrupt, waiting for timer interrupt...
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Successfully received ACK packet!A:  200392.0553,  Layer 5 to 4  Message = 2CSdt'7HXiy,<M^n21BR
+
+A_output is sending packet with data: 2CSdt'7HXiy,<M^n21BRÿ
+Sending ACK...
+
+B:  200396.8521,  Layer 4 to 5  Message = 2                   
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Successfully received ACK packet!A:  220115.7361,  Layer 5 to 4  Message = 3Uw;^!Df*Ln2Tv:]~3e)
+
+A_output is sending packet with data: 3Uw;^!Df*Ln2Tv:]~3e)ÿ
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  220197.5461,  Layer 4 to 5  Message = 3Uw;^!Df*Ln2Tv:]~3e)
+
+A_timerinterrupt called, resending packet!
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Successfully received ACK packet!A:  238704.6584,  Layer 5 to 4  Message = 4f=qGzP&Yxc8lB3K~T4^
+
+A_output is sending packet with data: 4f=qGzP&Yxc8lB3K~T4^ÿ
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  238742.3218,  Layer 4 to 5  Message = 4f=qGzP&Yxc8lB3K~T4^
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+Successfully received ACK packet!A:  251568.3996,  Layer 5 to 4  Message = 5zbI0u]D+pW>&kR9~fM5
+
+A_output is sending packet with data: 5zbI0u]D+pW>&kR9~fM5ÿ
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+Wrong acknum, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  251651.6082,  Layer 4 to 5  Message = 5zbI0u]D+pW>&kR9~fM5
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Successfully received ACK packet!A:  270734.5954,  Layer 5 to 4  Message = 6x(~wpibZSLE=6x(~wpi
+
+A_output is sending packet with data: 6x(~wpibZSLE=6x(~wpiÿ
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Wrong acknum, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Packet corrupt, waiting for timer interrupt...
+Sending ACK...
+
+B:  270834.1887,  Layer 4 to 5  Message = 6x(~wpibZSLE=6x(~wpi
+
+A_timerinterrupt called, resending packet!
+
+Packet corrupt, waiting for timer interrupt...
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Successfully received ACK packet!ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+A:  287053.6608,  Layer 5 to 4  Message = d7LVaku!,6AK2`jt~+5?
+
+A_output is sending packet with data: d7LVaku!,6AK2`jt~+5?ÿ
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  287075.2744,  Layer 4 to 5  Message = d7LVaku!,6AK2`jt~+5?
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+Successfully received ACK packet!ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+Packet corrupt, waiting for timer interrupt...
+A:  302314.0154,  Layer 5 to 4  Message = 8T8.Jf$?[w5Qm+Gc~<Xt
+
+A_output is sending packet with data: 8T8.Jf$?[w5Qm+Gc~<Xtÿ
+Sending ACK...
+
+B:  302327.8578,  Layer 4 to 5  Message = 8T8.Jf$?[w5Qm+Gc~<Xt
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Packet corrupt, waiting for timer interrupt...
+
+Successfully received ACK packet!ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+Packet corrupt, waiting for timer interrupt...
+A:  316998.2722,  Layer 5 to 4  Message = 9g693a0^-Z*W'T$Q~N{K
+
+A_output is sending packet with data: 9g693a0^-Z*W'T$Q~N{Kÿ
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  317037.4103,  Layer 4 to 5  Message = 9g693a0^-Z*W'T$Q~N{K
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+Successfully received ACK packet!ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+Wrong acknum, waiting for timer interrupt...
+A:  323023.2206,  Layer 5 to 4  Message = :yZ;:[<{]=|^>}_?~`A!
+
+A_output is sending packet with data: :yZ;:[<{]=|^>}_?~`A!ÿ
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  323111.7668,  Layer 4 to 5  Message = :yZ;:[<{]=|^>}_?~`A!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Successfully received ACK packet!A:  329462.6569,  Layer 5 to 4  Message = ;.~qd;I;.~qdVI;.~qdV
+
+A_output is sending packet with data: ;.~qd;I;.~qdVI;.~qdVÿ
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  329553.3488,  Layer 4 to 5  Message = ;.~qd;I;.~qdVV;.~qdI
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Successfully received ACK packet!ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+Wrong acknum, waiting for timer interrupt...
+A:  333374.2636,  Layer 5 to 4  Message = <AEIMQ<Y^bfjnrvz~%)-
+
+A_output is sending packet with data: <AEIMQ<Y^bfjnrvz~%)-ÿ
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  333419.4985,  Layer 4 to 5  Message = <AEIMQ<Y^bfjnrvz~%)-
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Successfully received ACK packet!A:  347617.3115,  Layer 5 to 4  Message = =fi~6Lb=xEZp(=3i~6Lb
+
+A_output is sending packet with data: =fi~6Lb=xEZp(=3i~6Lbÿ
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+Wrong acknum, waiting for timer interrupt...
+
+Wrong acknum, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  347698.0444,  Layer 4 to 5  Message = =fi~6Lb=xEZp(=3i~6Lb
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Successfully received ACK packet!A:  354359.3047,  Layer 5 to 4  Message = dfxV}Gn7>(Ov2g0W~Ho8
+
+A_output is sending packet with data: dfxV}Gn7>(Ov2g0W~Ho8ÿ
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+Wrong acknum, waiting for timer interrupt...
+Sending ACK...
+
+B:  354387.9602,  Layer 4 to 5  Message = dfxV}Gn7>(Ov2g0W~Ho8
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+Successfully received ACK packet!A:  371475.8612,  Layer 5 to 4  Message = ?xS.gBzU0?D|W2kF~Y4m
+
+A_output is sending packet with data: ?xS.gBzU0?D|W2kF~Y4mÿ
+Sending ACK...
+
+B:  371477.6426,  Layer 4 to 5  Message = ?xS.gBzU0?D|W2kF~m4Y
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Successfully received ACK packet!A:  372903.6509,  Layer 5 to 4  Message = A-wdP<)s`LA%o[H4~kWD
+
+A_output is sending packet with data: A-wdP<)s`LA%o[H4~kWDÿ
+Sending ACK...
+
+B:  372914.5496,  Layer 4 to 5  Message = A-wdP<)s`LA%o[H4~kWD
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Successfully received ACK packet!A:  392345.5301,  Layer 5 to 4  Message = B?=;97531x-B)'%#~|zx
+
+A_output is sending packet with data: B?=;97531x-B)'%#~|zxÿ
+Sending ACK...
+
+B:  392354.2643,  Layer 4 to 5  Message = B?=;97531x-B)'%#~|zx
+
+Printing the contents of the Simulation Event Q
+Event Time = 392360.530 A: Timer    
+Event Time = 407423.540 A: LAYER 5  
+
+
+Packet corrupt, waiting for timer interrupt...
+
+Printing the contents of the Simulation Event Q
+Event Time = 407423.540 A: LAYER 5  
+
+
+A_timerinterrupt called, resending packet!
+
+Printing the contents of the Simulation Event Q
+Event Time = 407423.540 A: LAYER 5  
+
+
+A_timerinterrupt called, resending packet!
+
+Printing the contents of the Simulation Event Q
+Event Time = 407423.540 A: LAYER 5  
+
+
+A_timerinterrupt called, resending packet!
+
+Printing the contents of the Simulation Event Q
+Event Time = 407423.540 A: LAYER 5  
+
+
+A_timerinterrupt called, resending packet!
+
+Printing the contents of the Simulation Event Q
+Event Time = 407423.540 A: LAYER 5  
+
+
+A_timerinterrupt called, resending packet!
+
+Printing the contents of the Simulation Event Q
+Event Time = 392435.530 A: Timer    
+Event Time = 407423.540 A: LAYER 5  
+
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 407423.540 A: LAYER 5  
+
+
+A_timerinterrupt called, resending packet!
+
+Printing the contents of the Simulation Event Q
+Event Time = 392450.530 A: Timer    
+Event Time = 407423.540 A: LAYER 5  
+
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 392450.530 A: Timer    
+Event Time = 407423.540 A: LAYER 5  
+
+
+Packet corrupt, waiting for timer interrupt...
+
+Printing the contents of the Simulation Event Q
+Event Time = 407423.540 A: LAYER 5  
+
+
+A_timerinterrupt called, resending packet!
+
+Printing the contents of the Simulation Event Q
+Event Time = 407423.540 A: LAYER 5  
+
+
+A_timerinterrupt called, resending packet!
+
+Printing the contents of the Simulation Event Q
+Event Time = 407423.540 A: LAYER 5  
+
+
+A_timerinterrupt called, resending packet!
+
+Printing the contents of the Simulation Event Q
+Event Time = 392495.530 A: Timer    
+Event Time = 407423.540 A: LAYER 5  
+
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 392495.530 A: Timer    
+Event Time = 407423.540 A: LAYER 5  
+
+
+Successfully received ACK packet!
+Printing the contents of the Simulation Event Q
+
+A:  407423.5398,  Layer 5 to 4  Message = CRbq#2BQap!1CP`o~0?O
+
+A_output is sending packet with data: CRbq#2BQap!1CP`o~0?Oÿ
+
+Printing the contents of the Simulation Event Q
+Event Time = 407438.540 A: Timer    
+Event Time = 426537.689 A: LAYER 5  
+
+Sending ACK...
+
+B:  407435.5501,  Layer 4 to 5  Message = CRbq#~BQap!1CP`o20?O
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+A_timerinterrupt called, resending packet!
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Successfully received ACK packet!
+Packet corrupt, waiting for timer interrupt...
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Wrong acknum, waiting for timer interrupt...
+A:  426537.6892,  Layer 5 to 4  Message = De(Ij-No2St7XD<^~Bc&
+
+A_output is sending packet with data: De(Ij-No2St7XD<^~Bc&ÿ
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  426561.8932,  Layer 4 to 5  Message = De(Ij-No2St7XD<^~Bc&
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+Successfully received ACK packet!A:  432969.2447,  Layer 5 to 4  Message = EwL~S(Zxb6i=pEEL~S(Z
+
+A_output is sending packet with data: EwL~S(Zxb6i=pEEL~S(Zÿ
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+Wrong acknum, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  433144.8464,  Layer 4 to 5  Message = EwL~S(Zxb6i=pEEL~S(Z
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Successfully received ACK packet!A:  438590.7996,  Layer 5 to 4  Message = d,pV<#gM3w^D2nTF~eK1
+
+A_output is sending packet with data: d,pV<#gM3w^D2nTF~eK1ÿ
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  438611.3691,  Layer 4 to 5  Message = d,pV<#gM3w^D2nTF~eK1
+
+A_timerinterrupt called, resending packet!
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+Successfully received ACK packet!A:  448792.4838,  Layer 5 to 4  Message = Gf6.&{skcZRJB93)Gvnf
+
+A_output is sending packet with data: Gf6.&{skcZRJB93)Gvnfÿ
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  448828.6007,  Layer 4 to 5  Message = Gf6.&{skcZRJB93)Gvnf
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Successfully received ACK packet!
+Packet corrupt, waiting for timer interrupt...
+A:  453755.9806,  Layer 5 to 4  Message = HQZdmv!+4=GPYclu~H3<
+
+A_output is sending packet with data: HQZdmv!+4=GPYclu~H3<ÿ
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Wrong acknum, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  453811.6321,  Layer 4 to 5  Message = HQZdml!+4=GPYcvu~H3<
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Successfully received ACK packet!A:  466599.7457,  Layer 5 to 4  Message = Id~;Vq.Id~;Vq.Id~;Iq
+
+A_output is sending packet with data: Id~;Vq.Id~;Vq.Id~;Iqÿ
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Wrong acknum, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  466649.7682,  Layer 4 to 5  Message = Id~;Vq.Id~;Vq.Id~;Iq
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Successfully received ACK packet!
+Wrong acknum, waiting for timer interrupt...
+A:  482102.0708,  Layer 5 to 4  Message = JvEq?l:g5b0]+W&R~MyJ
+
+A_output is sending packet with data: JvEq?l:g5b0]+W&R~MyJÿ
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  482144.9984,  Layer 4 to 5  Message = JvEq?l:g5b0]+W&R~MyJ
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+Successfully received ACK packet!ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Wrong acknum, waiting for timer interrupt...
+A:  493547.3593,  Layer 5 to 4  Message = K+iI)gG'eE%cC#aA~_>|
+
+A_output is sending packet with data: K+iI)gG'eE%cC#aA~_>|ÿ
+Sending ACK...
+
+B:  493549.2166,  Layer 4 to 5  Message = K+iI)gG'eE%cC#aA~_>|
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+Successfully received ACK packet!ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Packet corrupt, waiting for timer interrupt...
+A:  494482.4578,  Layer 5 to 4  Message = LLx~pbSE6(wiZL=x~pbS
+
+A_output is sending packet with data: LLx~pbSE6(wiZL=x~pbSÿ
+Sending ACK...
+
+B:  494484.8293,  Layer 4 to 5  Message = LLx~pbZE6(wiSL=x~pbS
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Successfully received ACK packet!ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Wrong acknum, waiting for timer interrupt...
+A:  503640.0899,  Layer 5 to 4  Message = dPMVY]`cfilo2ux{~$'*
+
+A_output is sending packet with data: dPMVY]`cfilo2ux{~$'*ÿ
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+Sending ACK...
+
+B:  503682.9446,  Layer 4 to 5  Message = dPMVY]`cfilo2ux{~$'*
+
+A_timerinterrupt called, resending packet!
+
+Packet corrupt, waiting for timer interrupt...
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Successfully received ACK packet!A:  514727.6397,  Layer 5 to 4  Message = NcwNCWl#7Lau,AUj~5J_
+
+A_output is sending packet with data: NcwNCWl#7Lau,AUj~5J_ÿ
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  514749.1991,  Layer 4 to 5  Message = NcwNCWl#7Lau,AUj~5J_
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Successfully received ACK packet!A:  529429.3037,  Layer 5 to 4  Message = Ou=dORxAgxU{Dj2X~Gm5
+
+A_output is sending packet with data: Ou=dORxAgxU{Dj2X~Gm5ÿ
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  529448.8543,  Layer 4 to 5  Message = Ou=dORxAgxU{Dj2X~Gm5
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Successfully received ACK packet!ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Wrong acknum, waiting for timer interrupt...
+A:  532196.6820,  Layer 5 to 4  Message = Pfb;sP'_8pJ$[53G~X2j
+
+A_output is sending packet with data: Pfb;sP'_8pJ$[53G~X2jÿ
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  532232.5714,  Layer 4 to 5  Message = Pfb;sP'28pJ$[53G~X_j
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Successfully received ACK packet!A:  533682.3805,  Layer 5 to 4  Message = Q<(q]HQ|hS>*s_J5~jUA
+
+A_output is sending packet with data: Q<(q]HQ|hS>*s_J5~jUAÿ
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  533719.1458,  Layer 4 to 5  Message = Q<(q]HQ|hS>*s_J5~jUA
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Successfully received ACK packet!ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+A:  537434.6557,  Layer 5 to 4  Message = ROLIFC?R9630-*'$~{xu
+
+A_output is sending packet with data: ROLIFC?R9630-*'$~{xuÿ
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+Sending ACK...
+
+B:  537512.3853,  Layer 4 to 5  Message = ROLIFC?R9630-*'$~{xu
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+Wrong acknum, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Successfully received ACK packet!A:  551606.2006,  Layer 5 to 4  Message = Sbp~x=LZSw(6ESbp~x=L
+
+A_output is sending packet with data: Sbp~x=LZSw(6ESbp~x=Lÿ
+Sending ACK...
+
+B:  551614.5415,  Layer 4 to 5  Message = Sbp~x=LZSw(6ESbp~x=L
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+Successfully received ACK packet!A:  561881.1125,  Layer 5 to 4  Message = dt6Vv8Xx:Tz<2|>_~Aa#
+
+A_output is sending packet with data: dt6Vv8Xx:Tz<2|>_~Aa#ÿ
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+Wrong acknum, waiting for timer interrupt...
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Wrong acknum, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+Wrong acknum, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Wrong acknum, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+Wrong acknum, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  562242.3550,  Layer 4 to 5  Message = dt6Vv8Xx:Tz<2|>_~Aa#
+
+A_timerinterrupt called, resending packet!
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Successfully received ACK packet!ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+A:  571554.5551,  Layer 5 to 4  Message = U)Z.`3e8j=UCtHyM~R&W
+
+A_output is sending packet with data: U)Z.`3e8j=UCtHyM~R&Wÿ
+Sending ACK...
+
+B:  571556.9825,  Layer 4 to 5  Message = U)Z.`3e8j=UCtHyM~R&W
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Successfully received ACK packet!A:  582157.8875,  Layer 5 to 4  Message = V;~dI.qV;~dV.qV;~dI.
+
+A_output is sending packet with data: V;~dI.qV;~dV.qV;~dI.ÿ
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  582241.4848,  Layer 4 to 5  Message = V;~dI.qV;~dV.qV;~dI.
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Successfully received ACK packet!
+Wrong acknum, waiting for timer interrupt...
+A:  584032.6853,  Layer 5 to 4  Message = WNE;2)}tkbXOW<3*~ulc
+
+A_output is sending packet with data: WNE;2)}tkbXOW<3*~ulcÿ
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  584131.9984,  Layer 4 to 5  Message = WNE;2)}tkbXOW<3*~ulc
+
+A_timerinterrupt called, resending packet!
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Successfully received ACK packet!A:  593502.7002,  Layer 5 to 4  Message = Xaiqy$,4<EMU^Xnv~)19
+
+A_output is sending packet with data: Xaiqy$,4<EMU^Xnv~)19ÿ
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  593551.5379,  Layer 4 to 5  Message = Xaiqy$,4<EMU^Xnv~)1 
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+A_timerinterrupt called, resending packet!
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Successfully received ACK packet!A:  598184.0945,  Layer 5 to 4  Message = YfxIc|8Rl(B[u1Ye~:Tn
+
+A_output is sending packet with data: YfxIc|8Rl(B[u1Ye~:Tnÿ
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  598215.4738,  Layer 4 to 5  Message = YfxIc|8Rl(B[u1Ye~:Tn
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Successfully received ACK packet!A:  608375.4736,  Layer 5 to 4  Message = Z(S~LwEp=i6bxZ(Z~LwE
+
+A_output is sending packet with data: Z(S~LwEp=i6bxZ(Z~LwEÿ
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+Wrong acknum, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  608412.1216,  Layer 4 to 5  Message = Z(S~LwEp=i6bxZ(Z~LwE
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+Successfully received ACK packet!A:  625979.9675,  Layer 5 to 4  Message = d:wV5rQ0mL+h2&cB[^<y
+
+A_output is sending packet with data: d:wV5rQ0mL+h2&cB[^<yÿ
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  626064.7047,  Layer 4 to 5  Message = d:wV5rQ0mL+h2&cB[^<y
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Successfully received ACK packet!ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+Wrong acknum, waiting for timer interrupt...
+A:  641700.6793,  Layer 5 to 4  Message = ]M=.|m^N>x}n_O?0~]`P
+
+A_output is sending packet with data: ]M=.|m^N>x}n_O?0~]`Pÿ
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  641730.0843,  Layer 4 to 5  Message = ]M=.|m^N>x}n_O?0~]`P
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Successfully received ACK packet!ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Wrong acknum, waiting for timer interrupt...
+A:  655639.1987,  Layer 5 to 4  Message = ^`bdfhjlnprtvxz|~#^'
+
+A_output is sending packet with data: ^`bdfhjlnprtvxz|~#^'ÿ
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  655675.1880,  Layer 4 to 5  Message = ^`bdfhjlnprtvxz|~#^'
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Successfully received ACK packet!
+Wrong acknum, waiting for timer interrupt...
+A:  667234.8435,  Layer 5 to 4  Message = _r(;Ocv,?Sgz0DWk~4H_
+
+A_output is sending packet with data: _r(;Ocv,?Sgz0DWk~4H_ÿ
+Sending ACK...
+
+B:  667244.3841,  Layer 4 to 5  Message = Sr(;Ocv,?_gz0DWk~4H_
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+A_timerinterrupt called, resending packet!
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Successfully received ACK packet!A:  675122.8378,  Layer 5 to 4  Message = `'Lq8^%Jo6[#Hm4Y~Fk2
+
+A_output is sending packet with data: `'Lq8^%Jo6[#Hm4Y~Fk2ÿ
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  675147.5140,  Layer 4 to 5  Message = `'Lq8^%Jo6[#Hm4Y~Fk2
+
+A_timerinterrupt called, resending packet!
+
+Packet corrupt, waiting for timer interrupt...
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+Successfully received ACK packet!ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+Wrong acknum, waiting for timer interrupt...
+A:  689621.6490,  Layer 5 to 4  Message = aapI!X1hAwP)`8oH~W0g
+
+A_output is sending packet with data: aapI!X1hAwP)`8oH~W0gÿ
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  689670.2766,  Layer 4 to 5  Message = aapI!X1hAwP)`8oH~W0g
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Successfully received ACK packet!A:  695180.8699,  Layer 5 to 4  Message = bLb~iS=(pZExwbL6~iS=
+
+A_output is sending packet with data: bLb~iS=(pZExwbL6~iS=ÿ
+Sending ACK...
+
+B:  695188.5516,  Layer 4 to 5  Message = bLb~iS=(pZExwbL6~iS=
+
+A_timerinterrupt called, resending packet!
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Successfully received ACK packet!A:  700023.5589,  Layer 5 to 4  Message = dfZcRNJFB=952-3%~zvr
+
+A_output is sending packet with data: dfZcRNJFB=952-3%~zvrÿ
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  700061.5546,  Layer 4 to 5  Message = dfZcRNJFB=952-3%~zvr
+
+Packet corrupt, waiting for timer interrupt...
+
+Wrong acknum, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Successfully received ACK packet!A:  719796.2356,  Layer 5 to 4  Message = dq~.dIVdq~.;IVdq~.;I
+
+A_output is sending packet with data: dq~.dIVdq~.;IVdq~.;Iÿ
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  719858.7687,  Layer 4 to 5  Message = dq~.dIVdq~.;IVdq~.;I
+
+Printing the contents of the Simulation Event Q
+Event Time = 721303.052 A: LAYER 5  
+
+
+A_timerinterrupt called, resending packet!
+
+Printing the contents of the Simulation Event Q
+Event Time = 719886.236 A: Timer    
+Event Time = 721303.052 A: LAYER 5  
+
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 719886.236 A: Timer    
+Event Time = 721303.052 A: LAYER 5  
+
+
+Packet corrupt, waiting for timer interrupt...
+
+Printing the contents of the Simulation Event Q
+Event Time = 721303.052 A: LAYER 5  
+
+
+A_timerinterrupt called, resending packet!
+
+Printing the contents of the Simulation Event Q
+Event Time = 721303.052 A: LAYER 5  
+
+
+A_timerinterrupt called, resending packet!
+
+Printing the contents of the Simulation Event Q
+Event Time = 721303.052 A: LAYER 5  
+
+
+A_timerinterrupt called, resending packet!
+
+Printing the contents of the Simulation Event Q
+Event Time = 721303.052 A: LAYER 5  
+
+
+A_timerinterrupt called, resending packet!
+
+Printing the contents of the Simulation Event Q
+Event Time = 719946.236 A: Timer    
+Event Time = 721303.052 A: LAYER 5  
+
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 719950.532 A: LAYER 3  Seq/Ack/Check = 1815373928/0/1815375670:  okqycc-9.3b0-glfiww.
+Event Time = 721303.052 A: LAYER 5  
+
+
+A_timerinterrupt called, resending packet!
+
+Printing the contents of the Simulation Event Q
+Event Time = 719961.236 A: Timer    
+Event Time = 721303.052 A: LAYER 5  
+
+
+Successfully received ACK packet!
+Printing the contents of the Simulation Event Q
+
+A:  721303.0520,  Layer 5 to 4  Message = e&Ed%ec$Cb#Ba!A`~?_}
+
+A_output is sending packet with data: e&Ed%ec$Cb#Ba!A`~?_}ÿ
+
+Printing the contents of the Simulation Event Q
+Event Time = 721318.052 A: Timer    
+Event Time = 739040.845 A: LAYER 5  
+
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 721318.052 A: Timer    
+Event Time = 739040.845 A: LAYER 5  
+
+
+Wrong acknum, waiting for timer interrupt...
+
+Printing the contents of the Simulation Event Q
+Event Time = 739040.845 A: LAYER 5  
+
+
+A_timerinterrupt called, resending packet!
+
+Printing the contents of the Simulation Event Q
+Event Time = 739040.845 A: LAYER 5  
+
+
+A_timerinterrupt called, resending packet!
+
+Printing the contents of the Simulation Event Q
+Event Time = 721348.052 A: Timer    
+Event Time = 739040.845 A: LAYER 5  
+
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 721348.515 A: LAYER 3  Seq/Ack/Check = 1815373928/0/1815375670:  okqycc-9.3.0-glfiwwb
+Event Time = 739040.845 A: LAYER 5  
+
+
+A_timerinterrupt called, resending packet!
+
+Printing the contents of the Simulation Event Q
+Event Time = 721363.052 A: Timer    
+Event Time = 739040.845 A: LAYER 5  
+
+
+Wrong acknum, waiting for timer interrupt...
+
+Printing the contents of the Simulation Event Q
+Event Time = 739040.845 A: LAYER 5  
+
+
+A_timerinterrupt called, resending packet!
+
+Printing the contents of the Simulation Event Q
+Event Time = 739040.845 A: LAYER 5  
+
+
+A_timerinterrupt called, resending packet!
+
+Printing the contents of the Simulation Event Q
+Event Time = 721400.455 B: LAYER 3  Seq/Ack/Check = 1/0/1548:  e&Ed%ec$Cb#Ba!A`~?_}
+Event Time = 739040.845 A: LAYER 5  
+
+
+A_timerinterrupt called, resending packet!
+
+Printing the contents of the Simulation Event Q
+Event Time = 721408.052 A: Timer    
+Event Time = 721424.697 B: LAYER 3  Seq/Ack/Check = 1/0/1548:  e&Ed%ec$Cb#Ba!A`~?_}
+Event Time = 739040.845 A: LAYER 5  
+
+Sending ACK...
+
+B:  721400.4552,  Layer 4 to 5  Message = e&Ed%ec$Cb#Ba!A`~?_}
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Successfully received ACK packet!A:  739040.8451,  Layer 5 to 4  Message = f8i;l>fBrEuHxK{N~Q$T
+
+A_output is sending packet with data: f8i;l>fBrEuHxK{N~Q$Tÿ
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  739173.3211,  Layer 4 to 5  Message = f8i;l>fBrEuHxK{N~Q$T
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+Successfully received ACK packet!ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Wrong acknum, waiting for timer interrupt...
+A:  747197.8860,  Layer 5 to 4  Message = gKxqU9{gD(jN2tX<~cG+
+
+A_output is sending packet with data: gKxqU9{gD(jN2tX<~cG+ÿ
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  747251.6518,  Layer 4 to 5  Message = gKxqU9{gD(jN2tX<~   
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Successfully received ACK packet!A:  757879.2180,  Layer 5 to 4  Message = h^SI>4*}hi_TJ?5+~tj`
+
+A_output is sending packet with data: h^SI>4*}hi_TJ?5+~tj`ÿ
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  757904.9853,  Layer 4 to 5  Message = h^SI>4*}hi_TJ?5+~tj`
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Successfully received ACK packet!A:  776839.2926,  Layer 5 to 4  Message = ipw~(x6=EiSZbipw~(x6
+
+A_output is sending packet with data: ipw~(x6=EiSZbipw~(x6ÿ
+Sending ACK...
+
+B:  776848.3245,  Layer 4 to 5  Message = ipw~Ex6=(iSZbipw~(x6
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Successfully received ACK packet!A:  790683.5158,  Layer 5 to 4  Message = d%=Vo*C[txja24Mf~9Rk
+
+A_output is sending packet with data: d%=Vo*C[txja24Mf~9Rkÿ
+Sending ACK...
+
+B:  790689.0263,  Layer 4 to 5  Message = d%=Vo*C[txja24Mf~9Rk
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+Successfully received ACK packet!
+Wrong acknum, waiting for timer interrupt...
+A:  805290.4931,  Layer 5 to 4  Message = k7b.X%OyFp<k3^*T~KuB
+
+A_output is sending packet with data: k7b.X%OyFp<k3^*T~KuBÿ
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  805315.5584,  Layer 4 to 5  Message = k7b.X%OyFp<k3^*T~KuB
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+Successfully received ACK packet!ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Wrong acknum, waiting for timer interrupt...
+A:  813855.3748,  Layer 5 to 4  Message = lf(dB}[9uS1ml)3C~]:v
+
+A_output is sending packet with data: lf(dB}[9uS1ml)3C~]:vÿ
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  813926.2546,  Layer 4 to 5  Message = lf(dB}[9uS1ml)3C~]:v
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Successfully received ACK packet!A:  816749.5179,  Layer 5 to 4  Message = m]L;+xhWG6&scmB1~n^M
+
+A_output is sending packet with data: m]L;+xhWG6&scmB1~n^Mÿ
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  816785.7021,  Layer 4 to 5  Message = m]L;+xhWG6&s~mB1cn^M
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Successfully received ACK packet!A:  817735.5049,  Layer 5 to 4  Message = nopqrstuvwxyz{n}~!#$
+
+A_output is sending packet with data: nopqrstuvwxyz{n}~!#$ÿ
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  817776.0860,  Layer 4 to 5  Message = nopqrstuvwxyz{n}~!#$
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Successfully received ACK packet!A:  833569.9329,  Layer 5 to 4  Message = o$6I[n#5HZm!4GYo~3FX
+
+A_output is sending packet with data: o$6I[n#5HZm!4GYo~3FXÿ
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  833621.3493,  Layer 4 to 5  Message = $o6I[n#5HZm!4GYo~3FX
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Successfully received ACK packet!
+Packet corrupt, waiting for timer interrupt...
+A:  848220.0743,  Layer 5 to 4  Message = p6Z~EixSw=b(Lp6ZpEix
+
+A_output is sending packet with data: p6Z~EixSw=b(Lp6ZpEixÿ
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  848293.4866,  Layer 4 to 5  Message = pZ6~EixSw=b(Lp6ZpEix
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Packet corrupt, waiting for timer interrupt...
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Wrong acknum, waiting for timer interrupt...
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Successfully received ACK packet!A:  868067.9555,  Layer 5 to 4  Message = dI~V.d;qI~V.2;qI~q.d
+
+A_output is sending packet with data: dI~V.d;qI~V.2;qI~q.dÿ
+Sending ACK...
+
+B:  868074.5380,  Layer 4 to 5  Message = dI~V.d;qI~V.2;qI~q.d
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Successfully received ACK packet!A:  871256.6449,  Layer 5 to 4  Message = r[E.u_H1xbK4{eN7~hr:
+
+A_output is sending packet with data: r[E.u_H1xbK4{eN7~hr:ÿ
+Sending ACK...
+
+B:  871265.3262,  Layer 4 to 5  Message = r[E.u_H1xbK4{eN7~hr:
+
+A_timerinterrupt called, resending packet!
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Successfully received ACK packet!A:  884116.3372,  Layer 5 to 4  Message = snid_YTOJE?:50+&~yts
+
+A_output is sending packet with data: snid_YTOJE?:50+&~ytsÿ
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  884147.3457,  Layer 4 to 5  Message = snid_YTOJE?:50+&~yts
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Successfully received ACK packet!A:  900760.0663,  Layer 5 to 4  Message = t#x;HTamy(4AMYfr~-9F
+
+A_output is sending packet with data: t#x;HTamy(4AMYfr~-9Fÿ
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  900783.9813,  Layer 4 to 5  Message = t#x;HTamy(4AMYfr~-9F
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Successfully received ACK packet!ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+A:  905822.2849,  Layer 5 to 4  Message = uuSq1Om-Ki)Ge%3a~>]z
+
+A_output is sending packet with data: uuSq1Om-Ki)Ge%3a~>]zÿ
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Wrong acknum, waiting for timer interrupt...
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  905871.6395,  Layer 4 to 5  Message = uuSq1Om-Ki)Ge%3a~>]z
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Successfully received ACK packet!A:  907628.5733,  Layer 5 to 4  Message = vHvIxJyKzL{M|N}O~P!Q
+
+A_output is sending packet with data: vHvIxJyKzL{M|N}O~P!Qÿ
+Sending ACK...
+
+B:  907634.1441,  Layer 4 to 5  Message = vHv}xJyKzL{M|NIO~P!Q
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Successfully received ACK packet!A:  917299.1318,  Layer 5 to 4  Message = wZ=wbE(iLxpS6wZ=~bE(
+
+A_output is sending packet with data: wZ=wbE(iLxpS6wZ=~bE(ÿ
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  917353.5467,  Layer 4 to 5  Message = wZ=wbE(iLxpS6wZ=~bE(
+
+A_timerinterrupt called, resending packet!
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+Successfully received ACK packet!A:  919474.4032,  Layer 5 to 4  Message = dmbVx?4){peY2C7,~sh]
+
+A_output is sending packet with data: dmbVx?4){peY2C7,~sh]ÿ
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  919510.0731,  Layer 4 to 5  Message = dmbVx?4){peY2C7,~sh]
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Successfully received ACK packet!A:  937494.1708,  Layer 5 to 4  Message = y!(.4yAGMSY`flrx~'-3
+
+A_output is sending packet with data: y!(.4yAGMSY`flrx~'-3ÿ
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  937514.3052,  Layer 4 to 5  Message = y!(.4y`GMSYAflrx~'-3
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Successfully received ACK packet!ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Wrong acknum, waiting for timer interrupt...
+A:  950533.5751,  Layer 5 to 4  Message = z4Ld{5ze|6Nf}7Og~8Ph
+
+A_output is sending packet with data: z4Ld{5ze|6Nf}7Og~8Phÿ
+Sending ACK...
+
+B:  950538.7338,  Layer 4 to 5  Message = z4Ld{5ze|6Nf}7Og~8Ph
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+Successfully received ACK packet!A:  969120.5412,  Layer 5 to 4  Message = {Gp;e0Y{NwCl7a,U~Js>
+
+A_output is sending packet with data: {Gp;e0Y{NwCl7a,U~Js>ÿ
+Sending ACK...
+
+B:  969130.6467,  Layer 4 to 5  Message = {Gp;e0Y{NwCl7a,U~Js>
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+Successfully received ACK packet!A:  983376.2717,  Layer 5 to 4  Message = |Y6qN+fC|Z7rO,gD~[8s
+
+A_output is sending packet with data: |Y6qN+fC|Z7rO,gD~[8sÿ
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  983413.1642,  Layer 4 to 5  Message =                     
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+Successfully received ACK packet!A:  994950.0226,  Layer 5 to 4  Message = }lZI7&raO},xgUD2~m[J
+
+A_output is sending packet with data: }lZI7&raO},xgUD2~m[Jÿ
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  994981.6217,  Layer 4 to 5  Message = }lZg7&raO},xIUD2~m[J
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+Wrong acknum, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Successfully received ACK packet!A:  1012713.4630,  Layer 5 to 4  Message = ~fDUgx,=Oa~&7I3l}1CT
+
+A_output is sending packet with data: ~fDUgx,=Oa~&7I3l}1CTÿ
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Wrong acknum, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  1012793.0369,  Layer 4 to 5  Message = ~fDUgx,=Oa~&7I3l}1CT
+
+Packet corrupt, waiting for timer interrupt...
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Successfully received ACK packet!ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Wrong acknum, waiting for timer interrupt...
+A:  1030293.4724,  Layer 5 to 4  Message = !3EVhy->Pbs'2J[m~2DU
+
+A_output is sending packet with data: !3EVhy->Pbs'2J[m~2DUÿ
+Sending ACK...
+
+B:  1030298.4643,  Layer 4 to 5  Message = !3EVhU->Pbs'2J[m~2Dy
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Successfully received ACK packet!
+Wrong acknum, waiting for timer interrupt...
+A:  1032129.4741,  Layer 5 to 4  Message = ##i.Qt9]!Eh-Ps8[~Dg,
+
+A_output is sending packet with data: ##i.Qt9]!Eh-Ps8[~Dg,ÿ
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  1032162.9355,  Layer 4 to 5  Message = ##i.Qt9]!Eh-Ps8[~Dg,
+
+A_timerinterrupt called, resending packet!
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+Successfully received ACK packet!
+Wrong acknum, waiting for timer interrupt...
+A:  1048824.6812,  Layer 5 to 4  Message = $X$d:oFzQ(]3h>sJ~U,a
+
+A_output is sending packet with data: $X$d:oFzQ(]3h>sJ~U,aÿ
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  1048845.8814,  Layer 4 to 5  Message = $X$d:oFzQ(]3h>sJ~U,a
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Successfully received ACK packet!ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+A:  1059959.2893,  Layer 5 to 4  Message = %kS%$jR:#iQ9!hP8~gO7
+
+A_output is sending packet with data: %kS%$jR:#iQ9!hP8~gO7ÿ
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  1059985.2853,  Layer 4 to 5  Message = %kS%$jR:#iQ9!hP8~gO7
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Successfully received ACK packet!A:  1068676.6958,  Layer 5 to 4  Message = &}wq&e_XRLF?93-'~xrl
+
+A_output is sending packet with data: &}wq&e_XRLF?93-'~xrlÿ
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+Sending ACK...
+
+B:  1068735.1873,  Layer 4 to 5  Message = &}wq&e_XRLF?93-'~xrl
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+Wrong acknum, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+Packet corrupt, waiting for timer interrupt...
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Successfully received ACK packet!A:  1075595.5432,  Layer 5 to 4  Message = '2=IT'kv$x:FQ]hs~,7C
+
+A_output is sending packet with data: '2=IT'kv$x:FQ]hs~,7Cÿ
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  1075612.7656,  Layer 4 to 5  Message = '2=IT'kv$x:FQ]hs~,7C
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+
+Successfully received ACK packet!A:  1079134.0338,  Layer 5 to 4  Message = (Eb~=Z(6SpxLi(Eb~=Zw
+
+A_output is sending packet with data: (Eb~=Z(6SpxLi(Eb~=Zwÿ
+Sending ACK...
+
+B:  1079141.1654,  Layer 4 to 5  Message = (Eb~=Z6(SpxLi(Eb~=Zw
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+Printing the contents of the Simulation Event Q
+Event Time = 1079151.876 A: LAYER 3  Seq/Ack/Check = 1105877872/1/1678:      ^        w#MK<é
+Event Time = 1080918.538 A: LAYER 5  
+
+
+A_timerinterrupt called, resending packet!
+
+Printing the contents of the Simulation Event Q
+Event Time = 1079155.569 B: LAYER 3  Seq/Ack/Check = 1/0/1605:  (Eb~=Z(6SpxLi(Žb~=Zw
+Event Time = 1079164.034 A: Timer    
+Event Time = 1080918.538 A: LAYER 5  
+
+
+Packet corrupt, waiting for timer interrupt...
+
+Printing the contents of the Simulation Event Q
+Event Time = 1079164.034 A: Timer    
+Event Time = 1080918.538 A: LAYER 5  
+
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 1080918.538 A: LAYER 5  
+
+
+A_timerinterrupt called, resending packet!
+
+Printing the contents of the Simulation Event Q
+Event Time = 1080918.538 A: LAYER 5  
+
+
+A_timerinterrupt called, resending packet!
+
+Printing the contents of the Simulation Event Q
+Event Time = 1080918.538 A: LAYER 5  
+
+
+A_timerinterrupt called, resending packet!
+
+Printing the contents of the Simulation Event Q
+Event Time = 1079213.486 B: LAYER 3  Seq/Ack/Check = 1/0/1678:  (Eb~=Z(6SpxLi(Eb~=Zw
+Event Time = 1080918.538 A: LAYER 5  
+
+
+A_timerinterrupt called, resending packet!
+
+Printing the contents of the Simulation Event Q
+Event Time = 1079224.034 A: Timer    
+Event Time = 1080918.538 A: LAYER 5  
+
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 1080918.538 A: LAYER 5  
+
+
+A_timerinterrupt called, resending packet!
+
+Printing the contents of the Simulation Event Q
+Event Time = 1080918.538 A: LAYER 5  
+
+
+A_timerinterrupt called, resending packet!
+
+Printing the contents of the Simulation Event Q
+Event Time = 1080918.538 A: LAYER 5  
+
+
+A_timerinterrupt called, resending packet!
+
+Printing the contents of the Simulation Event Q
+Event Time = 1080918.538 A: LAYER 5  
+
+
+A_timerinterrupt called, resending packet!
+
+Printing the contents of the Simulation Event Q
+Event Time = 1080918.538 A: LAYER 5  
+
+
+A_timerinterrupt called, resending packet!
+
+Printing the contents of the Simulation Event Q
+Event Time = 1079299.034 A: Timer    
+Event Time = 1080918.538 A: LAYER 5  
+
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 1079299.543 A: LAYER 3  Seq/Ack/Check = 1815373928/1/1818455863:  okqy4c-9.3.0-glfiwwb
+Event Time = 1080918.538 A: LAYER 5  
+
+
+A_timerinterrupt called, resending packet!
+
+Printing the contents of the Simulation Event Q
+Event Time = 1079314.034 A: Timer    
+Event Time = 1080918.538 A: LAYER 5  
+
+
+Packet corrupt, waiting for timer interrupt...
+
+Printing the contents of the Simulation Event Q
+Event Time = 1080918.538 A: LAYER 5  
+
+
+A_timerinterrupt called, resending packet!
+
+Printing the contents of the Simulation Event Q
+Event Time = 1079329.034 A: Timer    
+Event Time = 1080918.538 A: LAYER 5  
+
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 1080918.538 A: LAYER 5  
+
+
+A_timerinterrupt called, resending packet!
+
+Printing the contents of the Simulation Event Q
+Event Time = 1079344.034 A: Timer    
+Event Time = 1080918.538 A: LAYER 5  
+
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 1080918.538 A: LAYER 5  
+
+
+A_timerinterrupt called, resending packet!
+
+Printing the contents of the Simulation Event Q
+Event Time = 1080918.538 A: LAYER 5  
+
+
+A_timerinterrupt called, resending packet!
+
+Printing the contents of the Simulation Event Q
+Event Time = 1080918.538 A: LAYER 5  
+
+
+A_timerinterrupt called, resending packet!
+
+Printing the contents of the Simulation Event Q
+Event Time = 1079389.034 A: Timer    
+Event Time = 1080918.538 A: LAYER 5  
+
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 1079403.546 A: LAYER 3  Seq/Ack/Check = 1815373928/771751937/1815375671:  okqycc-9.3 0-glfiwwb
+Event Time = 1080918.538 A: LAYER 5  
+
+
+A_timerinterrupt called, resending packet!
+
+Printing the contents of the Simulation Event Q
+Event Time = 1079403.546 A: LAYER 3  Seq/Ack/Check = 1815373928/771751937/1815375671:  okqycc-9.3 0-glfiwwb
+Event Time = 1079404.034 A: Timer    
+Event Time = 1080918.538 A: LAYER 5  
+
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 1079404.034 A: Timer    
+Event Time = 1079404.489 A: LAYER 3  Seq/Ack/Check = 1815373928/1/1815375671:  okqycc-9.3.0-glfiwwb
+Event Time = 1080918.538 A: LAYER 5  
+
+
+Packet corrupt, waiting for timer interrupt...
+
+Printing the contents of the Simulation Event Q
+Event Time = 1079404.489 A: LAYER 3  Seq/Ack/Check = 1815373928/1/1815375671:  okqycc-9.3.0-glfiwwb
+Event Time = 1080918.538 A: LAYER 5  
+
+
+A_timerinterrupt called, resending packet!
+
+Printing the contents of the Simulation Event Q
+Event Time = 1079406.103 B: LAYER 3  Seq/Ack/Check = 1/7340032/1678:  (Eb~=Z(6S xLi(Eb~=Zw
+Event Time = 1079419.034 A: Timer    
+Event Time = 1080918.538 A: LAYER 5  
+
+
+Successfully received ACK packet!
+Printing the contents of the Simulation Event Q
+Event Time = 1080918.538 A: LAYER 5  
+
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+Printing the contents of the Simulation Event Q
+
+A:  1080918.5377,  Layer 5 to 4  Message = dW(V'U&)%S$R2Q!P~O}N
+
+A_output is sending packet with data: dW(V'U&)%S$R2Q!P~O}Nÿ
+
+Printing the contents of the Simulation Event Q
+Event Time = 1080933.538 A: Timer    
+Event Time = 1082477.020 A: LAYER 5  
+
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 1082477.020 A: LAYER 5  
+
+
+A_timerinterrupt called, resending packet!
+
+Printing the contents of the Simulation Event Q
+Event Time = 1080948.538 A: Timer    
+Event Time = 1082477.020 A: LAYER 5  
+
+ERROR IN B_INPUT:
+Packet is corrupted, sending NAK...
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 1082477.020 A: LAYER 5  
+
+
+A_timerinterrupt called, resending packet!
+
+Printing the contents of the Simulation Event Q
+Event Time = 1082477.020 A: LAYER 5  
+
+
+A_timerinterrupt called, resending packet!
+
+Printing the contents of the Simulation Event Q
+Event Time = 1082477.020 A: LAYER 5  
+
+
+A_timerinterrupt called, resending packet!
+
+Printing the contents of the Simulation Event Q
+Event Time = 1082477.020 A: LAYER 5  
+
+
+A_timerinterrupt called, resending packet!
+
+Printing the contents of the Simulation Event Q
+Event Time = 1081013.474 B: LAYER 3  Seq/Ack/Check = 0/0/1406:  dW(V'U&)%S$R2Q!P~O}N
+Event Time = 1082477.020 A: LAYER 5  
+
+
+A_timerinterrupt called, resending packet!
+
+Printing the contents of the Simulation Event Q
+Event Time = 1081023.538 A: Timer    
+Event Time = 1082477.020 A: LAYER 5  
+
+Sending ACK...
+
+B:  1081013.4737,  Layer 4 to 5  Message = dW(V'U&)%S$R2Q!P~O}N
+
+Packet corrupt, waiting for timer interrupt...
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+A_timerinterrupt called, resending packet!
+ERROR IN B_INPUT:
+Sequence number not correct, sending NAK...
+
+
+Successfully received ACK packet!
+Packet corrupt, waiting for timer interrupt...
+A:  1082477.0203,  Layer 5 to 4  Message = *fL.nP2r*6vX:z3>~aC%
+
+A_output is sending packet with data: *fL.nP2r*6vX:z3>~aC%ÿ
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+
+A_timerinterrupt called, resending packet!
+Sending ACK...
+
+B:  1082538.2619,  Layer 4 to 5  Message = *fL.nP2r*6vXCz3>~a:%
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+
+Simulator terminated at time 1082552.020269
+ after receiving 100 msgs at layer5
+Simulator Analysis:
+  Number of messages sent from 5 to 4: 100
+  Number of messages received at Layer 5, side A: 0
+  Number of messages received at Layer 5, side B: 100
+  Number of messages incorrectly received at layer 5: 25
+  Number of packets entering the network: 1503
+  Average number of packets already in network:     0.142
+  Number of packets that the network lost: 746
+  Number of packets that the network corrupted: 388
+  Number of packets that the network put out of order: 364
